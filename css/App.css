@@ -99,7 +99,7 @@ body {
   -webkit-transform-style: preserve-3d;
   z-index: 0;
   transition: .3s ease-in-out;
-  height: 76dvh;
+  height: 88dvh;
   overflow: hidden;
 }
 
