@@ -548,6 +548,7 @@ header.top-pages {
 
   .box-detail {
     padding: 30px 50px;
+    height: calc(85dvh - 80px);
   }
 }
 
