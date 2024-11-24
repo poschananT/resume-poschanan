@@ -260,7 +260,7 @@ header.top-pages {
 
 .box-social {
   position: absolute;
-  bottom: 5%;
+  bottom: 2%;
   left: 0;
   right: 0;
   margin: auto;
@@ -376,7 +376,7 @@ header.top-pages {
   flex-direction: column;
   padding: 16px;
   overflow: auto;
-  height: calc(83dvh - 80px);
+  height: calc(86dvh - 80px);
 }
 
 .con-img {
@@ -510,7 +510,7 @@ header.top-pages {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
   padding: 15px 20px;
   /* border-radius: 8px; */
-  height: calc(83dvh - 80px);
+  height: calc(87dvh - 80px);
   overflow: auto;
 }
 
@@ -556,7 +556,7 @@ header.top-pages {
 }
 
 .ports {
-  margin-top: 16px;
+  margin-top: 8px;
   background: rgb(255, 248, 217, 0.7);
   padding: 16px;
   border-radius: 8px;
@@ -611,7 +611,7 @@ header.top-pages {
   /* border: 2px solid #fff; */
   padding: 8px 50px;
   /* width: fit-content; */
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   margin-left: auto;
   margin-right: auto;
   /* background: rgb(255, 248, 217, 0.9); */
