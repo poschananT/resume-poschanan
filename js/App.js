@@ -21,7 +21,7 @@ $(function () {
     spaceBetween: 20,
     lazy: true,
     loop: true,
-    centeredSlides: true,
+    centeredSlides: false,
     // autoplay: {
     //   delay: 5000,
     //   disableOnInteraction: false,
@@ -33,9 +33,11 @@ $(function () {
     breakpoints: {
       768: {
         slidesPerView: 1.5,
+        centeredSlides: true,
       },
       1025: {
         slidesPerView: 3,
+        centeredSlides: false,
       },
     },
   });
