@@ -90,6 +90,10 @@ body {
   height: 76dvh;
 }
 
+#page .section.sc-portfolio {
+  height: 88dvh;
+}
+
 #page .section.active {
   /* display: block; */
   /* left: 0;
@@ -108,9 +112,9 @@ body {
 }
 
 @media (min-width: 768px) {
-  .container {
+  /* .container {
     width: 750px;
-  }
+  } */
 
   .hidden-w767 {
     display: block;
@@ -235,6 +239,11 @@ header.top-pages {
 
 .box-social img {
   max-width: 24px;
+  transition: .3s ease-in-out;
+}
+
+.box-social img:hover {
+  filter: invert(1);
 }
 
 .box-social {
@@ -309,7 +318,7 @@ header.top-pages {
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1025px) {
   .box-title {
     top: -31%;
   }
@@ -539,19 +548,25 @@ header.top-pages {
   background: rgb(255, 248, 217, 0.7);
   padding: 16px;
   border-radius: 8px;
+
+  height: 75%;
 }
 
 .port {
-  max-width: 570px;
+  /* max-width: 570px;
+  max-width: 45%; */
   width: 100%;
   overflow: hidden;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
 /*   border: 1px solid rgb(167, 160, 127, 0.4); */
   border-radius: 8px;
+  height: 53dvh;
+  display: block;
+  width: 100%;
 }
 
 .port img {
-/*   max-width: 570px; */
+  /* max-width: 370px; */
   width: 100%;
   transition: all 400ms ease-in-out;
 }
@@ -562,7 +577,7 @@ header.top-pages {
 
 .swiper-pagination {
   position: relative;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .swiper-pagination-bullet {
