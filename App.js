@@ -17,20 +17,23 @@
 
 $(function () {
   var swiper = new Swiper(".ports", {
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     spaceBetween: 20,
     lazy: true,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
     breakpoints: {
       768: {
+        slidesPerView: 1.5,
+      },
+      1025: {
         slidesPerView: 3,
       },
     },

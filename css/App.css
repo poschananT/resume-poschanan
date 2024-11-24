@@ -29,6 +29,18 @@ body {
   margin-top: 20px !important;
 }
 
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.mb-16 {
+  margin-bottom: 16px !important;
+}
+
+.m-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 
 #page {
   min-height: 100dvh;
@@ -325,7 +337,7 @@ header.top-pages {
 
   .box-social.active {
     left: auto;
-    right: 3%;
+    right: 2%;
     flex-direction: column;
   }
 }
@@ -405,7 +417,7 @@ header.top-pages {
   text-align: center;
   transition: .3s ease-in-out;
   margin: auto;
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 .btn-click:hover {
@@ -549,7 +561,7 @@ header.top-pages {
   padding: 16px;
   border-radius: 8px;
   padding-bottom: 8px;
-  height: 75%;
+  /* height: 83%; */
 }
 
 .port {
@@ -558,11 +570,12 @@ header.top-pages {
   width: 100%;
   overflow: hidden;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
-/*   border: 1px solid rgb(167, 160, 127, 0.4); */
+  /*   border: 1px solid rgb(167, 160, 127, 0.4); */
   border-radius: 8px;
-  height: 53dvh;
+  height: 62dvh;
   display: block;
-  width: 100%;
+  /* width: 70%; */
+  /* height: 394px; */
 }
 
 .port img {
@@ -609,6 +622,10 @@ header.top-pages {
   .sc-portfolio {
     padding: 80px 0;
   }
+
+  /* .port {
+    height: 483px;
+  } */
 }
 
 /* ########## end portfolio ########### */
@@ -693,3 +710,18 @@ header.top-pages {
 }
 
 /* ########## end contact ########### */
+
+/* width */
+.custom-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+/* .custom-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #9bac8d;
+  border-radius: 25px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #808d77;
+}
