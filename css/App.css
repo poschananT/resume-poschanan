@@ -100,6 +100,7 @@ body {
   z-index: 0;
   transition: .3s ease-in-out;
   height: 76dvh;
+  overflow: hidden;
 }
 
 #page .section.sc-portfolio {
@@ -376,7 +377,7 @@ header.top-pages {
   flex-direction: column;
   padding: 16px;
   overflow: auto;
-  height: calc(86dvh - 80px);
+  height: calc(94dvh - 80px);
 }
 
 .con-img {
@@ -510,7 +511,7 @@ header.top-pages {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
   padding: 15px 20px;
   /* border-radius: 8px; */
-  height: calc(87dvh - 80px);
+  height: calc(94dvh - 80px);
   overflow: auto;
 }
 
